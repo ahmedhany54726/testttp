@@ -1,0 +1,94 @@
+body{
+   background-image: url(image/img_noplastic.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center;
+    background-size: contain;
+   
+} 
+
+.container{
+   
+    color: #177400a8;
+   font-size: xx-large;
+  margin-top: auto;
+  text-align: center;
+ 
+}
+
+.p{
+    font: optional;
+}
+
+p{
+    font-size: medium;
+    text-align: right;
+}
+
+div p{
+
+    text-align: center;
+    text-decoration: none;
+    font-size:large;
+    font-style: oblique;
+}
+
+.one{
+
+    text-align: right;
+    text-decoration: none;
+    font-size:large;
+    font-style: oblique;
+}  
+
+ h1{
+    font-style: oblique;
+    
+    
+}
+
+h4{
+text-decoration-line: underline;
+}
+
+p{
+    font-style: italic;
+    font-size: medium;
+}
+
+@media(max-width:1000px){
+    section{
+        padding: 100px 18%;
+    }
+    .home{
+        height: auto;
+    }
+    .home-img img{
+        width: 300px;
+        height: auto;
+        max-width: 100%;
+    
+    }
+    :root{
+        --h1-font: 2.1rem;
+    }
+}
+
+.test{
+  background-color: blue;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.links{
+    text-align: center;
+    display: flex;
+    font-size: x-large;
+    text-decoration: none;
+    color: red;
+    margin: auto
+}
+
+button{
+    text-align: right;
+}
